@@ -1,4 +1,5 @@
 import LocationPin from "../../assets/LocationPin";
+import Button from "../Button/Button";
 
 
 const NavBar = () => {
@@ -29,18 +30,9 @@ const NavBar = () => {
         <LocationPin />
         <a href="#">find a store</a>
       </span>
-      <a
-        href="#"
-        className="border-2 border-solid border-red-500 rounded-[50px] p-2 ms-3"
-      >
-        signin
-      </a>
-      <a
-        href="#"
-        className="border-2 border-solid border-red-500 rounded-[50px] p-2 ms-3"
-      >
-        join now
-      </a>
+      <Button title="Signin" />
+      <Button title="Join Now" />
+    
     </div>
   </div>
   )

@@ -2,7 +2,7 @@ import Button from "../Button/Button";
 
 const Wrapper = (props) => {
 	return (
-		<div className="container bg-cyan-400 flex justify-between my-6 odd:flex-row-reverse">
+		<div className="container-[100%] bg-cyan-400 flex justify-between my-6 odd:flex-row-reverse">
 			<div className="flex-grow bg-red-300 w-1/2 flex flex-col justify-center items-center">
 				<div className="py-5">
 					<h2>New Year, New Yay</h2>
